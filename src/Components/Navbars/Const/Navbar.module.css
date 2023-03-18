@@ -26,10 +26,30 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
+    height: 70px;
+    border:1px solid red;
 }
 
 .navbar .logo img {
     width: 125px;
 }
 
+.nav__link_ul ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__link_ul ul li {
+    margin-left: 15px;
+}
+
+.nav__link_auth ul  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__link_auth ul li {
+    margin-left: 15px;
+}
 /* Navbar styles  */
+
