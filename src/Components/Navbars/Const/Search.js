@@ -11,7 +11,7 @@ const Search = () => {
     }
 
     const handleSubmit = (e) => {
-
+      console.log("hello")
     }
   return (
     <div className={styles.search}>
