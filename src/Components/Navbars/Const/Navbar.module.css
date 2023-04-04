@@ -63,10 +63,12 @@
 
 
 .search {
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 0 50px;
+    background-color: #EB2121;
 }
 
 .search .cartForm {
@@ -76,8 +78,32 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    margin-right: 50px;
 }
 .search .cartForm input {
     height: 100%;
+    border: none;
+    padding-left: 20px;
+    width: 400px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    outline: none;
+
+}
+.search .cartForm button {
+    outline: none;
+    border: none;
+    background-color: #b3adad;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.search .cartForm button img {
+    width: 20px;
+    height: 20px;
 }
 /* Search styles  */

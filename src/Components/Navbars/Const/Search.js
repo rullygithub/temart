@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Cart from './Cart';
 import styles from './Navbar.module.css';
+import SearchImg from '../../../assets/logo/search.png'
 
 const Search = () => {
     
@@ -17,7 +18,9 @@ const Search = () => {
     <div className={styles.search}>
         <form className={styles.cartForm} onSubmit={handleSubmit}>
             <input type="text" placeholder='Pencarian' value={searchText} onChange={handleSearch}/>
-            <button type='submit'>Search</button>
+            <button type='submit'>
+              <img src={SearchImg} alt=""/>
+            </button>
         </form>
 
         <Cart/>

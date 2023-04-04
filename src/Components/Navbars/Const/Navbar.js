@@ -3,11 +3,13 @@ import AuthLink from './AuthLink';
 
 
 import styles from './Navbar.module.css';
+import Search from './Search';
 
 
 const Navbar = () => {
   return (
-    <div className={styles.navbar}>
+    <div>
+      <div className={styles.navbar}>
         <div className={styles.logo}>
             <img src='/assets/Logo/logo.png' alt="Logo" />
         </div>
@@ -21,6 +23,8 @@ const Navbar = () => {
 
         <AuthLink/>
         
+    </div>
+    <Search/>
     </div>
   )
 }
