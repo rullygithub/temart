@@ -1,0 +1,28 @@
+.searchform {
+    background-color: aliceblue;
+    width: 500px;
+    height: 35px;
+}
+.searchform form {
+    display: flex;
+    align-items: center;
+}
+.searchform form .inputsearch {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+    padding-left: 30px;
+}
+.searchform form button {
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+    height: 35px;
+    width: 35px;
+
+}
+.searchform form button img {
+    width: 15px;
+}

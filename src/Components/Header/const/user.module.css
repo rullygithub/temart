@@ -1,0 +1,13 @@
+.users {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    border-radius: 50%;
+}
+.users img {
+    width: 20px;
+
+}

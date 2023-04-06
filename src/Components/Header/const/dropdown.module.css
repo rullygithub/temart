@@ -1,0 +1,38 @@
+.dropdown {
+    position: relative;
+}
+.dropdown button {
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown button span img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.dropdown .menuListDropdown {
+    position: absolute;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e1e1e1;
+    top:30px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.dropdown .menuListDropdown li {
+    margin-bottom: 10px;
+}
+.dropdown .menuListDropdown li a {
+    color: #303030;
+    font-size: 14px;
+}
+.dropdown .menuListDropdown li a:hover {
+    color:red;
+}

@@ -1,0 +1,23 @@
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.cart .logoCart {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(198, 209, 219);
+    
+}
+.cart .logoCart img {
+    width: 20px;
+
+}
+.cart span {
+    margin-left: 10px;
+    font-size: 14px;
+}

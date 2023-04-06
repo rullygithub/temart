@@ -15,10 +15,46 @@
     justify-content: space-between;
 }
 
-.nav span, .nav p {
+.nav span {
     font-size: 13px;
     margin-right: 15px;
     font-weight: bold;
+    color: rgb(94, 18, 18)
 }
 
 /* Style Nav Header End  */
+
+/* ================================================================== */
+/* Style Navbar Start  */
+
+.navbar {
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.navbar .logo img {
+    width: 125px;
+}
+.navbar .menu {
+    margin-left: 50px;
+}
+.navbar .search {
+    margin-left: 50px;
+}
+.navbar .user {
+    right: 0;
+    margin-right: 230px;
+    position: absolute;
+}
+.navbar .cart {
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+}
+/* Style Navbar End  */
+/* ================================================================== */
