@@ -1,0 +1,11 @@
+.boxes {
+  width: 100%;
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 15px;
+}
+.boxProduct {
+  padding: 20px;
+  background-color: #f4f2f2;
+}

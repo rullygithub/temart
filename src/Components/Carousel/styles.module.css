@@ -1,0 +1,38 @@
+.slider {
+
+    position: relative;
+    height: 720px;
+}
+
+.slider .btn_act {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider .btn_act button {
+    outline: none;
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 50%;
+    opacity: .5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .btn_act button img {
+    width: 20px;
+    height: 20px;
+}
