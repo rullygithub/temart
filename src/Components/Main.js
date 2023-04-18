@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Nav from './Header/Nav'
 import Navbar from './Header/Navbar'
 import styles from './Main.module.css'
 import SliderCarousel from './Carousel/sliderCarousel'
 import ProductList from './Pages/Product/ProductList'
+import Context from '../Context/Context'
 
 const Main = () => {
+
+
   return (
-    <div>
+    <Context>
+      <div>
         <Nav/>
         <Navbar/>
         <SliderCarousel/>
@@ -19,6 +23,7 @@ const Main = () => {
 
         </div>
     </div>
+    </Context>
   )
 }
 
