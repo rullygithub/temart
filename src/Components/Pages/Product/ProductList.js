@@ -46,6 +46,9 @@ const ProductList = () => {
             />
         ))}
         <Cart cartItems={cartItems} removeFromCart={removeFromCart}/> */}
+      {product.map((prod) => {
+        return <Product prod={prod} key={prod.id}></Product>
+      })}
     </div>
   )
 }
