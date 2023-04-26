@@ -16,7 +16,7 @@ const Main = () => {
         <Navbar/>
         <SliderCarousel/>
         <div className={styles.box_title_product}>
-          <div>
+          <div className={styles.head__title}>
             <h2>Semua Kategori Produk</h2>
           </div>
         <ProductList/>

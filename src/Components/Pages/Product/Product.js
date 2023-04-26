@@ -9,8 +9,8 @@ const Product = ({prod}) => {
         {/* <h2 className={styles.title}>{props.name}</h2>
         <p className={styles.description}>{props.desc}</p> */}
         {<div className={styles.footerCard}>
-          <span>{prod.name}</span>
-        <p className={styles.price}>{prod.price}</p>
+          <span className={styles.names__item}>{prod.name}</span>
+        <p className={styles.price__item}>{prod.price}</p>
         {/* <button onClick={() => addToCart(product)} className={styles.addCartButton} ><img src={cartIcon} alt=""/></button> */}
         </div>}
         
